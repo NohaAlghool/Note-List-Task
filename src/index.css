@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    background-color: rgb(223, 223, 223);
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+    padding: 10px 30px;
+}
+.nav ul li{
+    text-decoration: none;
+    margin: 0 20px;
+}
+.nav ul li .link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.main{
+    /* text-align: center; */
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+    height: auto;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 600px;
+    margin: auto;
+    padding: 10px 20px;
+}
+.inpVal{
+    padding: 0px 10px; 
+    border-radius: 10px;
+    border: 1px solid rgb(208, 208, 208);
+    margin: 10px 0px;
+    height: 40px;
+    font-size: 18px;
+    color: rgb(19, 5, 179);
+    outline: none;
+}
+/* button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(208, 208, 208);
+    background-color: white;
+    font-size: 20px;
+    margin: 0 10px;
+} */
+.counter{
+    display: flex;
+    align-items: center;
+}
+.count{
+    margin: 0 10px;
+    width: 23px;
+}
+
+.movi{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: cadetblue; */
+    
+}
+
+.movi > div{
+    width: 100%;
+    /* background-color: crimson; */
+    font-size: 19px;
+}
+.moviNav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    background-color:rgb(223, 223, 223);
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.moviNav > div{
+    font-size: 20px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form label{
+    margin-left: 20px;
+}
+
+.items{
+    display: flex;
+    margin: 10px 0;
+}
+
+
+/* //////////////////// */
+.all{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.todo-task{
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(20, 2, 86);
+    height:auto;
+}
+.todoTitle{
+    display: flex;
+}
+.todo-task h3{
+    color: #fff;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+}
+.todoImg{
+    width: 60px;
+    height: 60px;
+}
+.secondTite{
+    color: #fff;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.handPeace{
+    width: 25px;
+    height: 25px;
+}
+.showItems{
+    width: 300px;
+    height: auto;
+    /* background-color: brown; */
+}
+.items{
+    display: flex;
+    align-items: center;
+}
+.item{
+    width: 300px;
+    height: 40px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 10px;
+    padding:10px ;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Kalam', cursive;
+    background-color:rgb(68, 68, 255);
+    color: #fff;
+}
+.item:hover {
+    background-color:#fff ;
+    cursor: pointer;
+    color: #000;
+}
+.item:hover .delIcon{
+    color: #f00;
+}
+.item:hover .editIcon{
+    color: green;
+}
+.del{
+    width: 100px;
+    height: 50px;
+}
+.input{
+    padding: 0 40px;
+    width: 300px;
+    font-family: 'Kalam', cursive;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.input::placeholder{
+    font-size: 14px;
+    color: rgb(192, 191, 191);
+}
+.handWrite{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 100;
+    width: 30px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 3px;
+}
+.icon:hover{
+    width: 20px;
+    height: 20px;
+    background-color:rgb(68, 68, 255);
+    color: white;
+    border-radius: 4px;
+}
+
+.icon2{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 3px;
+    font-size: 16px;
+}
+
+
+/* ///////////////////// navhook /////////////////// */
